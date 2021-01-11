@@ -9,23 +9,31 @@
 /* Begin PBXBuildFile section */
 		48D07C7825A9E73C00072432 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D07C7725A9E73C00072432 /* AppDelegate.swift */; };
 		48D07C7A25A9E73C00072432 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D07C7925A9E73C00072432 /* SceneDelegate.swift */; };
-		48D07C7C25A9E73C00072432 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D07C7B25A9E73C00072432 /* ViewController.swift */; };
 		48D07C7F25A9E73C00072432 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D07C7D25A9E73C00072432 /* Main.storyboard */; };
 		48D07C8225A9E73C00072432 /* Food_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 48D07C8025A9E73C00072432 /* Food_Tracker.xcdatamodeld */; };
 		48D07C8425A9E74000072432 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 48D07C8325A9E74000072432 /* Assets.xcassets */; };
 		48D07C8725A9E74000072432 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 48D07C8525A9E74000072432 /* LaunchScreen.storyboard */; };
+		48D07C9125A9E80400072432 /* MealViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D07C9025A9E80400072432 /* MealViewController.swift */; };
+		48D07C9425A9E82C00072432 /* RatingControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D07C9325A9E82C00072432 /* RatingControl.swift */; };
+		48D07C9725A9E84C00072432 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D07C9625A9E84C00072432 /* Meal.swift */; };
+		48D07C9B25A9E87A00072432 /* MealTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D07C9A25A9E87A00072432 /* MealTableViewCell.swift */; };
+		48D07C9F25A9E8A500072432 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D07C9E25A9E8A500072432 /* MealTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		48D07C7425A9E73C00072432 /* Food Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Food Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		48D07C7725A9E73C00072432 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		48D07C7925A9E73C00072432 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		48D07C7B25A9E73C00072432 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		48D07C7E25A9E73C00072432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		48D07C8125A9E73C00072432 /* Food_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Food_Tracker.xcdatamodel; sourceTree = "<group>"; };
 		48D07C8325A9E74000072432 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		48D07C8625A9E74000072432 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		48D07C8825A9E74000072432 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		48D07C9025A9E80400072432 /* MealViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealViewController.swift; sourceTree = "<group>"; };
+		48D07C9325A9E82C00072432 /* RatingControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingControl.swift; sourceTree = "<group>"; };
+		48D07C9625A9E84C00072432 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		48D07C9A25A9E87A00072432 /* MealTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewCell.swift; sourceTree = "<group>"; };
+		48D07C9E25A9E8A500072432 /* MealTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +66,14 @@
 		48D07C7625A9E73C00072432 /* Food Tracker */ = {
 			isa = PBXGroup;
 			children = (
-				48D07C7725A9E73C00072432 /* AppDelegate.swift */,
-				48D07C7925A9E73C00072432 /* SceneDelegate.swift */,
-				48D07C7B25A9E73C00072432 /* ViewController.swift */,
+				48D07C9625A9E84C00072432 /* Meal.swift */,
+				48D07C9A25A9E87A00072432 /* MealTableViewCell.swift */,
+				48D07C9E25A9E8A500072432 /* MealTableViewController.swift */,
+				48D07C9025A9E80400072432 /* MealViewController.swift */,
+				48D07C9325A9E82C00072432 /* RatingControl.swift */,
 				48D07C7D25A9E73C00072432 /* Main.storyboard */,
+				48D07C7925A9E73C00072432 /* SceneDelegate.swift */,
+				48D07C7725A9E73C00072432 /* AppDelegate.swift */,
 				48D07C8325A9E74000072432 /* Assets.xcassets */,
 				48D07C8525A9E74000072432 /* LaunchScreen.storyboard */,
 				48D07C8825A9E74000072432 /* Info.plist */,
@@ -141,8 +153,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				48D07C8225A9E73C00072432 /* Food_Tracker.xcdatamodeld in Sources */,
-				48D07C7C25A9E73C00072432 /* ViewController.swift in Sources */,
+				48D07C9125A9E80400072432 /* MealViewController.swift in Sources */,
+				48D07C9B25A9E87A00072432 /* MealTableViewCell.swift in Sources */,
 				48D07C7825A9E73C00072432 /* AppDelegate.swift in Sources */,
+				48D07C9425A9E82C00072432 /* RatingControl.swift in Sources */,
+				48D07C9725A9E84C00072432 /* Meal.swift in Sources */,
+				48D07C9F25A9E8A500072432 /* MealTableViewController.swift in Sources */,
 				48D07C7A25A9E73C00072432 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
